@@ -1,0 +1,41 @@
+/*.mentor_profile {
+    margin: 20px 0;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    @media (max-width: 600px) {
+      display: block;
+    }
+  }
+  
+  .mentor_text {
+    color: white;
+    @media (max-width: 768px) {
+      margin: 5px 0 0 0;
+    }
+  }
+  
+  .mentor_name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+  }
+  
+  .mentor_description {
+    font-size: 1em;
+    line-height: 1.5em;
+    @media (max-width: 900px) {
+      font-size: .9em;
+    }
+  }
+  
+  .mentor_list {
+    position: absolute;
+    top: 35%;
+    left: calc(5vh);
+    color: white;
+    z-index: 20;
+    font-weight: 600;
+  }
+  */
