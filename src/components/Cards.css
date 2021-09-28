@@ -10,10 +10,10 @@
   .cards__container {
     display: flex;
     flex-flow: column;
-    align-items: center;
+    align-items:stretch;
     max-width: 1120px;
     width: 90%;
-    margin: 0 auto;
+    margin: 1 auto;
   }
   
   .cards__wrapper {
@@ -22,10 +22,9 @@
   }
   
   .cards__items {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
-  
   .cards__item {
     display: flex;
     flex: 1;
@@ -33,7 +32,7 @@
     border-radius: 10px;
     margin: 20px 0;
     margin-bottom: 40px;
-    display:contents;
+    display:block;
     flex-direction: column;
     position: relative;
     @media (max-width: 600px) {
@@ -55,9 +54,9 @@
   
   .cards__item__pic-wrap {
     position: relative;
-    width: 80%;
-    padding-top: 67%;
-    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+    overflow:visible;
   }
   
   .fade-img {
@@ -74,10 +73,10 @@
     display: block;
     object-fit: cover;
     transition: all 0.2s linear;
-    height: 150px;
-    width: 150px;
-    min-width: 150px;
-    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    min-width: 50px;
+    border-radius: 100%;
     margin: 0 20px 0 0;
     background-repeat: no-repeat;
     background-position: center top;
@@ -109,7 +108,14 @@
   
   @media only screen and (min-width: 1024px) {
     .cards__items {
-      display: flex;
+      display:flex;
+    }
+    .cards__item__img{
+      height: 60px;
+      width: 60px;
+      min-width: 50px;
+      border-radius: 0%;
+      background-position: center;
     }
   }
   
